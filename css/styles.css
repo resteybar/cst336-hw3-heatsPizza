@@ -1,0 +1,92 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#title {
+    color: #d80000;
+}
+
+#topping {
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#orderMsg {
+    text-align: center;
+}
+
+#barcode {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#location {
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#orderInfo {
+    color: black;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fire {
+    width: 3%;
+    height: 3%;
+}
+
+fieldset {
+    width: 30%;
+}
+
+#submitButton {
+    background-color: #cc8400;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#requests {
+    height: 70px; 
+    width: 30%;
+}
+
+#getRequest, legend, #labelName, #labelCard, #orderMsg {
+    color: #88e188;
+}
+
+#labelPep, #labelMush, #labelNoTop {
+    color: #7EC0EE;
+}
+
+#shockedEmoji {
+    height: 5%; 
+    width: 5%;
+}
+
+#error {
+    color: #ff7f7f;
+}
+
+#order {
+    height: 5%; 
+    width: 5%;
+}
